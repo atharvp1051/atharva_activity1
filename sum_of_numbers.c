@@ -11,3 +11,4 @@ int main()
     printf("Sum is: %d",s);
     return(0);
 }
+//after compiling
