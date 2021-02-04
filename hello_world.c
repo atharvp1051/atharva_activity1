@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main()
 {
-    printf("\n Atharva Patil ");
+    printf(" Atharva Patil \n");
     return(0);
 }
-//compiled
