@@ -1,6 +1,7 @@
 #include<stdio.h>
-void main()
+int main()
 {
-printf("\n Atharva Patil ");
+    printf("\n Atharva Patil ");
+    return(0);
 }
-//after compiling
+//compiled
