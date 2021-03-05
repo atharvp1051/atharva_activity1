@@ -44,3 +44,4 @@ float ytwo()
 	scanf("%f",&y2);
 	return y2;
 }
+
