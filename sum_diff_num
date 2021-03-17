@@ -9,7 +9,7 @@ int main()
 int countt()
 {
     printf("Enter the count ");
-    scanf("%d",coun);
+    scanf("%d",&coun);
     return coun;
 }
 int input(int coun)
@@ -23,7 +23,7 @@ int input(int coun)
     {
         sum=sum+a[i];
     }
-    return;
+    return sum;
 }
 int display()
 {
