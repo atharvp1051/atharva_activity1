@@ -1,4 +1,3 @@
-//WAP to find the sum of two fractions.
 #include<stdio.h>
 
 typedef struct
@@ -43,10 +42,10 @@ frac add(frac a, frac b)
 	sum.denom=sum.denom/h;
 	return sum;
 }
-void print(frac a,frac b;frac f)
+void print(frac a,frac b,frac f)
 {
-	int a=(a.num*b.denom)+(b.num*a.denom);
-	int b=a.denom*b.denom;
+	int c=(a.num*b.denom)+(b.num*a.denom);
+	int d=a.denom*b.denom;
 	printf("The sum fraction is %d/%d",f.num,f.denom);
 }
 int main()
@@ -57,3 +56,4 @@ frac a,b,f;
 	f=add(a,b);
 	print(a,b,f);
 }
+
